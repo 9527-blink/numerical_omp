@@ -1,0 +1,6 @@
+#BSUB -q normal
+#BSUB -W 03:00
+#BSUB -o "run.%J.out"
+#BSUB -e "run.%J.err"
+
+mpiexec ./task_omp 160 180 1.44 0.000005 run160x180_8.out log_run160x180_8.txt 8
