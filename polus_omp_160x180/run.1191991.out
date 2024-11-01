@@ -1,0 +1,49 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1191991: <#BSUB -q normal;#BSUB -W 03:00;#BSUB -o "run.%J.out";#BSUB -e "run.%J.err"; mpiexec ./task_omp 160 180 1.44 0.000005 run160x180_32.out log_run160x180_32.txt 32> in cluster <MSUCluster> Done
+
+Job <#BSUB -q normal;#BSUB -W 03:00;#BSUB -o "run.%J.out";#BSUB -e "run.%J.err"; mpiexec ./task_omp 160 180 1.44 0.000005 run160x180_32.out log_run160x180_32.txt 32> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel24-604-04> in cluster <MSUCluster> at Fri Nov  1 15:29:48 2024
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skmodel24-604-04> in cluster <MSUCluster> at Fri Nov  1 15:29:48 2024
+</home_edu/edu-cmc-skmodel24-604/edu-cmc-skmodel24-604-04> was used as the home directory.
+</home_edu/edu-cmc-skmodel24-604/edu-cmc-skmodel24-604-04/1thwork> was used as the working directory.
+Started at Fri Nov  1 15:29:48 2024
+Terminated at Fri Nov  1 15:55:48 2024
+Results reported at Fri Nov  1 15:55:48 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -q normal
+#BSUB -W 03:00
+#BSUB -o "run.%J.out"
+#BSUB -e "run.%J.err"
+
+mpiexec ./task_omp 160 180 1.44 0.000005 run160x180_32.out log_run160x180_32.txt 32
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   49815.35 sec.
+    Max Memory :                                 29 MB
+    Average Memory :                             28.87 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   2 MB
+    Max Processes :                              5
+    Max Threads :                                41
+    Run time :                                   1565 sec.
+    Turnaround time :                            1560 sec.
+
+The output (if any) follows:
+
+tot iteration: 6111612
+The run time is: 1558.893566s
+
+
+PS:
+
+Read file <run.1191991.err> for stderr output of this job.
+

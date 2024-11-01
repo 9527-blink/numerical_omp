@@ -1,0 +1,2 @@
+tot iteration: 6111612
+The run time is: 1368.503513s
